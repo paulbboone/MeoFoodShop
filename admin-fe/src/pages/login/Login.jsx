@@ -28,27 +28,27 @@ const Login = () => {
                 <div className="container py-5 h-100">
                     <div className="row d-flex justify-content-center align-items-center h-100">
                         <div className="col-xl-10">
-                            <div className="card rounded-3 text-black">
+                            <div className="card rounded-2 ">
                                 <div className="row g-0">
                                     <div className="col">
                                         <div className="card-body p-md-5 mx-md-4">
 
-                                            <div className="text-center">
-                                                    <h1>Login</h1>
+                                            <div className="text-center text-white  ">
+                                                    <h1 >Login</h1>
                                             </div>
                                             <form onSubmit={handleLogin}>
                                                 <div className="form-outline mb-4 col-lg-6 mx-auto">
                                                     <label className="form-label" htmlFor="form2Example11">Username</label>
-                                                    <input  id="form2Example11" className="form-control" placeholder="Phone number or email address" onChange={(e) => setUsername(e.target.value)}/>
+                                                    <input  id="form2Example11" className="form-control" placeholder="Username..." onChange={(e) => setUsername(e.target.value)}/>
                                                 </div>
 
                                                 <div className="form-outline mb-4 col-lg-6 mx-auto">
-                                                    <label className="form-label" htmlFor="form2Example22">Password</label>
-                                                    <input type="password" id="form2Example22" className="form-control" placeholder="Password" onChange={(e) => setPassword(e.target.value)}/>
+                                                    <label className="form-label text" htmlFor="form2Example22">Password</label>
+                                                    <input type="password" id="form2Example22" className="form-control" placeholder="Password..." onChange={(e) => setPassword(e.target.value)}/>
                                                 </div>
 
-                                                <div className="text-center pt-1 mb-5 pb-1 col-lg-6 mx-auto">
-                                                    <button className="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3 w-100" type="submit">Login</button>
+                                                <div className="text-center text-black pt-1 mb-5 pb-1 col-lg-6 mx-auto">
+                                                    <button className="btn  btn-block fa-lg gradient-custom-2 mb-3 w-100 bg-secondary" type="submit">Login</button>
                                                    
                                                 </div>
 
