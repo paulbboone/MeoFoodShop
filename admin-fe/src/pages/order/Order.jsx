@@ -35,8 +35,8 @@ const Order = () => {
                 <thead>
                 <tr>
                     <th>User</th>
-                    <th>Name</th>
-                    <th>Phone number</th>
+                    <th>Full Name</th>
+                    <th>Phone Number</th>
                     <th>Address</th>
                     <th>Note</th>
                     <th>List of products</th>
