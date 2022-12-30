@@ -48,9 +48,7 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/about">About</NavLink>
                             </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/contact">Contact</NavLink>
-                            </li>
+                           
                         </ul>
                         <div className="buttons">
                             {/* <NavLink to="/register" className="btn btn-outline-dark ms-2"><i className="fa fa-user-plus me-1"></i> Register</NavLink> */}

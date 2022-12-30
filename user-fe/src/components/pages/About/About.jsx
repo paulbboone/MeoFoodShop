@@ -23,9 +23,20 @@ const About = () => {
                             <li>With the motto of giving pets the best meal, we are constantly researching and improving the products we are distributing to meet the evolving needs of our pets.</li>
                             
                         </ol>
-
+                        <br></br><hr></hr>
+                        <h3>Contact us at:</h3>
+                        <ul>
+                            <li>Phone number: 0331241267</li>
+                            <li>
+                                <a href="https://www.facebook.com/">Our FanPage</a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/">Our Instargram</a>
+                            </li>
+                            
+                        </ul>
                         </p>
-                        <NavLink to = "/contact" className= "btn btn-outline-dark px-3">Contact us</NavLink>
+                       
                     </div>
                     <div className="col-md-6">
                     <img src="/assets/About/catfoodbanner.jpg" alt="About Us"/>
