@@ -39,7 +39,7 @@ const Products = () => {
       Swal.fire({
         position: 'center',
         icon: 'success',
-        title: 'Delete failed!',
+        title: 'Delete successfully!',
         showConfirmButton: false,
       })
       setTimeout(() => window.location.reload(false), 1000);

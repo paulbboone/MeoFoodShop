@@ -86,7 +86,7 @@ const Edit = () => {
         <textarea type="text" class="form-control" id="description" rows="7" name='description' placeholder="" onChange={handleChange} value={products.description || ''}/>
       </div>
       <div class="mb-3 col-md-1 mx-auto">
-        <button onClick={updateProduct(products._id)}>Add to my cart</button>
+        <button onClick={updateProduct(products._id)}>Add </button>
       </div>
     </div>
   );
