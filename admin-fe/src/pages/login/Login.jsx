@@ -33,7 +33,7 @@ const Login = () => {
                                     <div className="col">
                                         <div className="card-body p-md-5 mx-md-4">
 
-                                            <div className="text-center text-white  ">
+                                            <div className="text-center text-black ">
                                                     <h1 >Login</h1>
                                             </div>
                                             <form onSubmit={handleLogin}>
@@ -47,8 +47,8 @@ const Login = () => {
                                                     <input type="password" id="form2Example22" className="form-control" placeholder="Password..." onChange={(e) => setPassword(e.target.value)}/>
                                                 </div>
 
-                                                <div className="text-center text-black pt-1 mb-5 pb-1 col-lg-6 mx-auto">
-                                                    <button className="btn  btn-block fa-lg gradient-custom-2 mb-3 w-100 bg-secondary" type="submit">Login</button>
+                                                <div className="text-center pt-1 mb-5 pb-1 col-lg-6 mx-auto">
+                                                    <button className="btn text-light btn-block fa-lg gradient-custom-2 mb-3 w-100 bg-secondary" type="submit">Login</button>
                                                    
                                                 </div>
 

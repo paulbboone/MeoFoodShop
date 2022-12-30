@@ -36,7 +36,7 @@ const Navbar = () => {
                                  <ul className="navbar-nav  mb-2 fw-bolder d-flex justify-content-around">
                             
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/order">Requirement</NavLink>
+                                <NavLink className="nav-link" to="/order">Order</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/product">Product</NavLink>
